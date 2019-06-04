@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ultimate Tic Tac Toe</string>
+    <string name="button_back_to_menu">( Main Menu )</string>
+    <string name="button_highscore">( Highscore )</string>
+    <string name="button_new_game">( New Game )</string>
+    <string name="button_replay">( Play Again )</string>
+    <string name="button_single_player">( AI. )</string>
+    <string name="button_start_game">( Play game )</string>
+    <string name="button_two_player">( VS. )</string>
+    <string name="textview_highscore_title">Highscore</string>
+    <string name="textview_name">Name</string>
+    <string name="textview_play_again">Try again!</string>
+    <string name="textview_player_draw">It\'s a draw!</string>
+    <string name="textview_player_won">The winner!</string>
+    <string name="textview_rank">Rank</string>
+    <string name="textview_time">Time</string>
+    <string name="textview_wins">Wins</string>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_container_gameMode"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container_createPlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container_createPlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnPlayGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:text="@string/button_start_game"
+        android:textColor="#0088cc"
+        android:textSize="24sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+</LinearLayout>
